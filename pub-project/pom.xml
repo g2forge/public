@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.g2forge.public</groupId>
+  <artifactId>pub-project</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <alexandria.version>0.0.14-SNAPSHOT</alexandria.version>
+    <enigma.version>0.0.8-SNAPSHOT</enigma.version>
+    <gearbox.version>0.0.6-SNAPSHOT</gearbox.version>
+    <bulldozer.version>0.0.2-SNAPSHOT</bulldozer.version>
+    <habitat.version>0.0.2-SNAPSHOT</habitat.version>
+    <public.organization>g2forge</public.organization>
+    <public.name>Public</public.name>
+    <public.repository>public</public.repository>
+  </properties>
+  <name>Public Project</name>
+  <description>Parent project for Public.</description>
+  <url>https://github.com/${public.organization}/${public.repository}/tree/${project.version}/${project.artifactId}</url>
+  <developers>
+    <developer>
+      <name>Greg Gibeling</name>
+      <email>gdgib@outlook.com</email>
+      <organization>G2 Forge</organization>
+      <organizationUrl>http://www.g2forge.com</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://github.com/${public.organization}/${public.repository}/blob/${project.version}/LICENSE</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/${public.organization}/${public.repository}.git</connection>
+    <developerConnection>scm:git:ssh://github.com:${public.organization}/${public.repository}.git</developerConnection>
+    <url>http://github.com/${public.organization}/${public.repository}/tree/${project.version}</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <properties>
+            <properties>
+              <name>alexandria.version</name>
+              <dependencies>
+                <dependency>
+                  <artifactId>alexandria</artifactId>
+                </dependency>
+              </dependencies>
+            </properties>
+            <properties>
+              <name>enigma.version</name>
+              <dependencies>
+                <dependency>
+                  <artifactId>enigma</artifactId>
+                </dependency>
+              </dependencies>
+            </properties>
+            <properties>
+              <name>gearbox.version</name>
+              <dependencies>
+                <dependency>
+                  <artifactId>gearbox</artifactId>
+                </dependency>
+              </dependencies>
+            </properties>
+            <properties>
+              <name>bulldozer.version</name>
+              <dependencies>
+                <dependency>
+                  <artifactId>bulldozer</artifactId>
+                </dependency>
+              </dependencies>
+            </properties>
+            <properties>
+              <name>habitat.version</name>
+              <dependencies>
+                <dependency>
+                  <artifactId>habitat</artifactId>
+                </dependency>
+              </dependencies>
+            </properties>
+          </properties>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

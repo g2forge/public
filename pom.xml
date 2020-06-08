@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>public</artifactId>
+  <packaging>pom</packaging>
+  <parent>
+    <groupId>com.g2forge.public</groupId>
+    <artifactId>pub-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>pub-project/pom.xml</relativePath>
+  </parent>
+  <name>Public</name>
+  <description>Rollup of all the g2forge open source projects</description>
+  <modules>
+    <module>pub-project</module>
+  </modules>
+</project>
