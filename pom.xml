@@ -9,11 +9,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<alexandria.version>0.0.16-SNAPSHOT</alexandria.version>
-		<enigma.version>0.0.10-SNAPSHOT</enigma.version>
-		<gearbox.version>0.0.8-SNAPSHOT</gearbox.version>
+		<alexandria.version>0.0.17-SNAPSHOT</alexandria.version>
+		<enigma.version>0.0.11-SNAPSHOT</enigma.version>
+		<gearbox.version>0.0.9-SNAPSHOT</gearbox.version>
 		<bulldozer.version>0.0.2-SNAPSHOT</bulldozer.version>
-		<habitat.version>0.0.4-SNAPSHOT</habitat.version>
+		<habitat.version>0.0.5-SNAPSHOT</habitat.version>
 		<reassert.version>0.0.3-SNAPSHOT</reassert.version>
 
 		<public.organization>g2forge</public.organization>
