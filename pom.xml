@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<alexandria.version>0.0.18-SNAPSHOT</alexandria.version>
+		<alexandria.version>0.0.19-SNAPSHOT</alexandria.version>
 		<enigma.version>0.0.12-SNAPSHOT</enigma.version>
 		<gearbox.version>0.0.10-SNAPSHOT</gearbox.version>
 		<bulldozer.version>0.0.2-SNAPSHOT</bulldozer.version>
